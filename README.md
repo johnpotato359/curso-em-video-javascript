@@ -1,2 +1,2 @@
-# curso-em-video-javascript
- Atividades JavaScript
+## Atividades JavaScript
+ Atividades de JavaScript dos módulos do curso do Curso Em Vídeo.
