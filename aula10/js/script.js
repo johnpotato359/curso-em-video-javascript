@@ -19,3 +19,5 @@ function mouseSaiu() {
 divArea.addEventListener('click', mouseClicar);
 divArea.addEventListener('onmouseenter', mouseEntrou);
 divArea.addEventListener('onouseout', mouseSaiu);
+
+
