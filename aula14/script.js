@@ -1,11 +1,11 @@
-var contador = 0;
+var contador = 1;
 
 while(contador <= 10) {
     console.log(`Hello, Wolrd [${contador}]`);
     contador++;
 }
 
-contador = 0;
+contador = 1;
 
 do {
     console.log(`Hello again [${contador}]`);
