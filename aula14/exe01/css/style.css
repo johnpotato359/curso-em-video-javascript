@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f2fda9f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+
+header {
+    text-align: center;
+    margin-top: 16px;
+}
+
+section {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.287);
+    border-radius: 8px;
+    width: 600px;
+    padding: 1rem;
+    color: #000;
+    background-color: whitesmoke;
+    margin: 16px auto;
+}
+
+div p {
+    padding: .5rem;
+}
+
+#btnContar {
+    padding: .3rem;
+}
+
+#resultado {
+padding: .5rem;
+}
+
+
+footer {
+    text-align: center;
+}
