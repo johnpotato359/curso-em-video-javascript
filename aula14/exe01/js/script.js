@@ -11,9 +11,13 @@ function contarNumeros() {
     if(valorInicio.value.length == 0 
         || valorFim.value.length == 0
         || valorPasso.value.length == 0){
-            alert('[ERRO] Faltam dados!');
+            resultado.innerHTML = 'Impossivel contar!';
         } else {
-            resultado.innerHTML = 'Contando...';
+            resultado.innerHTML = 'Contando... <br>';
+            if(passo <= 0) {
+                alert('Passo Invalido! Considerando PASSO 1');
+                passo = 1;
+            }
             if(inicio < fim){
                 for(let i = inicio; i <= fim; i+= passo){
                     resultado.innerHTML += `${i} \u{1F449}`;
